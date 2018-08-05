@@ -7,4 +7,4 @@ git remote add origin git@github.com:mobihack/mobihack.github.io.git
 git checkout master
 git add -A
 git commit -m "autogen: Jekyll Build Upload!"
-git push origin master
+git push -f origin master
