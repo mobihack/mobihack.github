@@ -1,5 +1,5 @@
-rmdir -r _site
-bundle exec jekyll build
+#rmdir -r _site
+#bundle exec jekyll build
 cd _site
 touch .nojekyll
 git init
