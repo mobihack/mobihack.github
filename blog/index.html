@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Portfolio Site - Shameem A R a.k.a. @mobihack
+    Credits:
+        * @jgthms for bulma
+        * Google Fonts
+        * https://www.favicon-generator.org/
+        * Fontawesome
+        * vectr
+        * https://github.com/daneden/animate.css
+        * https://github.com/jshjohnson/Animate
+        * https://rgalus.github.io/sticky-js/
+        * https://github.com/laolusrael/scroll-spy#table-of-content
+-->
+<head>
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="author" content="Shameem A R">
+	<!--<meta name="description" content="description here">
+	<meta name="keywords" content="keywords,here">-->
+	
+	<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+	<!-- RSS+Atom Feed -->
+	<link rel="alternate" type="application/atom+xml" title="News Feed" href="https://rockitech.net/feed/" />
+	<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Blog | MobiHacK Blog</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A blog dedicated to articles related to things like web development, design, server management…" />
+<meta property="og:description" content="A blog dedicated to articles related to things like web development, design, server management…" />
+<link rel="canonical" href="https://rockitech.net/blog/" />
+<meta property="og:url" content="https://rockitech.net/blog/" />
+<meta property="og:site_name" content="MobiHacK Blog" />
+<script type="application/ld+json">
+{"description":"A blog dedicated to articles related to things like web development, design, server management…","@type":"WebPage","url":"https://rockitech.net/blog/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://rockitech.net/static/img/logo.png"}},"headline":"Blog","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+	<!-- Meta site verfication -->
+	<!--<meta name="google-site-verification" content="_mjuCILje1KbiyITzjH9RaUctxe8KvIRyJyMgY8M62M">
+	<meta name="yandex-verification" content="87efdc146a575e06" />-->
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway%7CNunito:400,700%7CSource+Code+Pro" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+	 crossorigin="anonymous" rel="stylesheet" />
+
+	<link rel="stylesheet" href="/static/css/styles.min.css" type="text/css">
+</head>
+<body class="blog-list">
+<nav class="navbar logo is-white">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/static/img/logo.png" alt="mobihack" />
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarTop" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/blog/">
+          Blog
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable ">
+          <a class="navbar-link" href="#dropdown-menu">
+            More
+          </a>
+          <div class="navbar-dropdown is-boxed is-radiusless">
+            <a class="navbar-item" href="/blog/archive/">
+             <span class="icon"><i class="fa fa-newspaper-o"></i></span> <span>Archives</span>
+            </a>
+            <a class="navbar-item" href="/blog/category/">
+              <span class="icon"><i class="fa fa-hashtag"></i></span> <span>Categories</span>
+            </a>
+            <a class="navbar-item" href="/blog/feed/">
+              <span class="icon"><i class="fa fa-rss"></i></span> <span>RSS Feeds</span>
+            </a>
+            <a class="navbar-item" href="/blog/tags/">
+              <span class="icon"><i class="fa fa-tags"></i></span> <span>Tags</span>
+            </a>
+            <a class="navbar-item" href="/nova-mente/">
+              <span class="icon"><i class="fa fa-list-alt"></i></span> <span>Nova Mente</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <form action="/blog/search/" class="navbar-item search-bar" method="GET">
+          <div class="field has-addons nav-item">
+            <p class="control is-expanded-mobile">
+              <input class="input is-radiusless" name="q" placeholder="Search Articles!" type="text">
+              </input>
+            </p>
+            <p class="control">
+              <button class="button is-link is-radiusless" type="submit">
+                <span class="icon">
+                  <i class="fa fa-search">
+                  </i>
+                </span>
+                <span>
+                  Search
+                </span>
+              </button>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="hero is-link is-medium">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="columns is-centered">
+            <div class="column is-4">
+                <h1 class="title is-size-3">Mobihack's Blog</h1>
+                <h2 class="subtitle">A small blog for all my little things!</h2>
+
+                <p>Hello. I'm Shameem, a self-taught web developer living in I love reading books, listening to ear-blasting
+                    music, and the occasional cooking.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<div class="featured">
+    <div class="columns" style="margin-top: 10px">
+        <div class="column is-6 is-offset-5 b-featured animate" data-animate data-animation-classes="animated fadeIn" data-animation-delay="1500"
+            data-animation-offset="0, 0">
+            <div class="header has-text-centered" style="margin-bottom: 2rem;">
+                <h2 class="title is-size-4">Featured Articles</h2>
+                <hr class="sep" />
+            </div>
+            <div class="columns is-multiline is-centered b-feat-items cards-eq-height">
+                <div class="column is-6 item">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="./post.html" class="title is-5">
+                                <figure class="image is-4by3">
+                                    <img src="/static/img/article/01-music.png" alt="Placeholder image">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <div class="media-content has-text-justified">
+                                <a href="./post.html" class="title is-5">How music shaped the world.</a>
+                                <p class="excerpt">A journey through the rise of music throughout the world.</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item has-text-left">
+                                <a class="button is-success is-outlined">Read More</a>
+                            </p>
+                            <div class="card-footer-item has-text-right meta">
+                                <time class="item" datetime="2016-1-1">
+                                    <span class="icon">
+                                        <i class="fa fa-clock-o"></i>
+                                    </span>
+                                    <span>2 week ago</span>
+                                </time>
+                                <div class="item">
+                                    <span class="icon">
+                                        <i class="fa fa-hashtag"></i>
+                                    </span>
+                                    <span>Psychology</span>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-6 item">
+                    <div class="card">
+
+                        <div class="card-image">
+                            <a href="./post.html" class="title is-5">
+                                <figure class="image is-4by3">
+                                    <img src="/static/img/article/02-computers.png" alt="Placeholder image">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="card-content">
+                            <div class="media-content has-text-justified">
+                                <a href="./post.html" class="title is-5">Imagining a world without computers</a>
+                                <p class="excerpt">A look into a world where computers are non-existent.</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item has-text-left">
+                                <a class="button is-success is-outlined">Read More</a>
+                            </p>
+                            <div class="card-footer-item has-text-right meta">
+                                <time class="item" datetime="2016-1-1">
+                                    <span class="icon">
+                                        <i class="fa fa-clock-o"></i>
+                                    </span>
+                                    <span>2 week ago</span>
+                                </time>
+                                <div class="item">
+                                    <span class="icon">
+                                        <i class="fa fa-hashtag"></i>
+                                    </span>
+                                    <span>Technology</span>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div class="articles b-posts">
+    <div class="header has-text-centered" style="margin: 2rem 0;">
+        <h2 class="title is-size-4">Articles</h2>
+        <hr class="sep" />
+    </div>
+    <div class="container">
+        <div class="columns is-multiline is-centered b-feat-items cards-eq-height">
+            
+        </div>
+         
+ 
+    </div>
+</div>
+<br>
+
+
+
+<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+  <ul>
+    <li>
+      <a href="https://rockitech.net">
+        <span>Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://rockitech.net/blog/">
+        <span>Blog</span>
+      </a>
+    </li>
+    
+  </ul>
+</nav>
+
+
+<script src="/static/js/animate.min.js"></script>
+<script src="/static/js/sticky.min.js"></script>
+<script src="/static/js/scroll-spy.js"></script>
+<script src="/static/js/site.js"></script>
+
+<footer class="hero is-light">
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			
+				<figure class="image is-96x96 is-inline-block">
+						<img src="/static/img/logo.png" />
+					  </figure>
+
+				<blockquote><p>"If you are not willing to risk the usual, you will have to settle for the ordinary."</p><cite class="has-text-right"> - Jim Rohn</cite></blockquote>
+
+				<ul class="footer_links has-text-centered">
+						  <li><a href="/blog/page/license">Article License</a></li>
+						  <li><a href="/blog/page/terms">Terms and Conditions</a></li>
+						  <li><a href="/blog/page/privacy">Privacy Policy</a></li>
+						  <li><a href="/blog/page/contact">Contact Form</a></li>
+				</ul>
+		  
+				  <p class="copyright">Copyright &copy; 2018 <a href="#" target="_blank">CodeVector</a>.
+					  All Rights Reserved.
+				  </p>
+		  
+		</div>
+	</div>
+</footer>
+</body>
+</html>

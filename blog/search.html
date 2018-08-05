@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Portfolio Site - Shameem A R a.k.a. @mobihack
+    Credits:
+        * @jgthms for bulma
+        * Google Fonts
+        * https://www.favicon-generator.org/
+        * Fontawesome
+        * vectr
+        * https://github.com/daneden/animate.css
+        * https://github.com/jshjohnson/Animate
+        * https://rgalus.github.io/sticky-js/
+        * https://github.com/laolusrael/scroll-spy#table-of-content
+-->
+<head>
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="author" content="Shameem A R">
+	<!--<meta name="description" content="description here">
+	<meta name="keywords" content="keywords,here">-->
+	
+	<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+	<!-- RSS+Atom Feed -->
+	<link rel="alternate" type="application/atom+xml" title="News Feed" href="https://rockitech.net/feed/" />
+	<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Search Blog Posts | MobiHacK Blog</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Search Blog Posts" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A blog dedicated to articles related to things like web development, design, server management…" />
+<meta property="og:description" content="A blog dedicated to articles related to things like web development, design, server management…" />
+<link rel="canonical" href="https://rockitech.net/blog/search.html" />
+<meta property="og:url" content="https://rockitech.net/blog/search.html" />
+<meta property="og:site_name" content="MobiHacK Blog" />
+<script type="application/ld+json">
+{"description":"A blog dedicated to articles related to things like web development, design, server management…","@type":"WebPage","url":"https://rockitech.net/blog/search.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://rockitech.net/static/img/logo.png"}},"headline":"Search Blog Posts","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+	<!-- Meta site verfication -->
+	<!--<meta name="google-site-verification" content="_mjuCILje1KbiyITzjH9RaUctxe8KvIRyJyMgY8M62M">
+	<meta name="yandex-verification" content="87efdc146a575e06" />-->
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway%7CNunito:400,700%7CSource+Code+Pro" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+	 crossorigin="anonymous" rel="stylesheet" />
+
+	<link rel="stylesheet" href="/static/css/styles.min.css" type="text/css">
+</head>
+<body>
+<nav class="navbar logo is-white">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/static/img/logo.png" alt="mobihack" />
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarTop" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/blog/">
+          Blog
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable ">
+          <a class="navbar-link" href="#dropdown-menu">
+            More
+          </a>
+          <div class="navbar-dropdown is-boxed is-radiusless">
+            <a class="navbar-item" href="/blog/archive/">
+             <span class="icon"><i class="fa fa-newspaper-o"></i></span> <span>Archives</span>
+            </a>
+            <a class="navbar-item" href="/blog/category/">
+              <span class="icon"><i class="fa fa-hashtag"></i></span> <span>Categories</span>
+            </a>
+            <a class="navbar-item" href="/blog/feed/">
+              <span class="icon"><i class="fa fa-rss"></i></span> <span>RSS Feeds</span>
+            </a>
+            <a class="navbar-item" href="/blog/tags/">
+              <span class="icon"><i class="fa fa-tags"></i></span> <span>Tags</span>
+            </a>
+            <a class="navbar-item" href="/nova-mente/">
+              <span class="icon"><i class="fa fa-list-alt"></i></span> <span>Nova Mente</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <form action="/blog/search/" class="navbar-item search-bar" method="GET">
+          <div class="field has-addons nav-item">
+            <p class="control is-expanded-mobile">
+              <input class="input is-radiusless" name="q" placeholder="Search Articles!" type="text">
+              </input>
+            </p>
+            <p class="control">
+              <button class="button is-link is-radiusless" type="submit">
+                <span class="icon">
+                  <i class="fa fa-search">
+                  </i>
+                </span>
+                <span>
+                  Search
+                </span>
+              </button>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Main container -->
+<section class="hero is-link" style="margin-bottom: 2rem;">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Search Posts
+      </h1>
+      <h2 class="subtitle">
+        Search all the posts of the blog.
+      </h2>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="box">
+    <h2 class="title"></h2>
+    <hr>
+    <div class="field has-addons">
+      <p class="control is-expanded">
+        <input class="input" type="text" placeholder="Find a post" id="search-input">
+      </p>
+      <p class="control">
+        <a class="button is-info">
+          Search
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="columns is-multiline is-centered b-feat-items cards-eq-height" id="results-container">
+
+  </div>
+</div>
+
+<!-- Configuration -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script type="text/javascript">
+var qs=function(r){if(""==r)return{};for(var e={},n=0;n<r.length;++n){var t=r[n].split("=",2);1==t.length?e[t[0]]="":e[t[0]]=decodeURIComponent(t[1].replace(/\+/g," "))}return e}(window.location.search.substr(1).split("&"));
+var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/blog/search.json',
+  searchResultTemplate: '<div class="column is-4 item">    <div class="card">        <div class="card-image">            <a href="{url}" title="{title}" class="title is-5">                <figure class="image is-4by3">                    <img src="/static/article-pics/abstract.png?" alt="Placeholder image">                </figure>            </a>        </div>        <div class="card-content">            <div class="media-content has-text-justified">                <a href="{url}" title="{title}" class="title is-5">{title}</a>                <p class="excerpt">{excerpt}</p>            </div>        </div>        <footer class="card-footer">            <div class="card-footer-item has-text-left meta">                <div class="columns is-vcentered">                    <div class="column is-narrow">                        <figure class="image is-48x48">                            <img src="https://github.com/{usergit}.png?size=96" alt="Image"  style="border: 1px solid rgba(10,10,10,.1);">                          </figure>                    </div>                    <div class="column is-paddingless">                        <span>{username}</span>                        <br>                        <time class="item" datetime="2016-1-1">                            <span>{date}</span>                        </time>                    </div>                </div>            </div>            <p class="card-footer-item has-text-right">                <a href="{url}" class="button is-link is-outlined is-radiusless">Read More</a>            </p>        </footer>    </div></div>',
+  noResultsText: 'No results found!',
+  limit: 10,
+  success: function(){
+    if(null!=qs.q){
+      this.searchInput.value=qs.q;
+      setTimeout(function() { document.getElementById('search-input').dispatchEvent(new KeyboardEvent("keyup")); }, 200)
+    }
+  },
+});
+</script>
+
+
+
+<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+  <ul>
+    <li>
+      <a href="https://rockitech.net">
+        <span>Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://rockitech.net/blog/">
+        <span>Blog</span>
+      </a>
+    </li>
+    
+      
+    
+    <li>
+      <a href="https://rockitech.net/blog/search.html">
+        <span>Search Blog Posts</span>
+      </a>
+    </li>
+    
+    
+  </ul>
+</nav>
+
+
+<script src="/static/js/animate.min.js"></script>
+<script src="/static/js/sticky.min.js"></script>
+<script src="/static/js/scroll-spy.js"></script>
+<script src="/static/js/site.js"></script>
+
+<footer class="hero is-light">
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			
+				<figure class="image is-96x96 is-inline-block">
+						<img src="/static/img/logo.png" />
+					  </figure>
+
+				<blockquote><p>"If you are not willing to risk the usual, you will have to settle for the ordinary."</p><cite class="has-text-right"> - Jim Rohn</cite></blockquote>
+
+				<ul class="footer_links has-text-centered">
+						  <li><a href="/blog/page/license">Article License</a></li>
+						  <li><a href="/blog/page/terms">Terms and Conditions</a></li>
+						  <li><a href="/blog/page/privacy">Privacy Policy</a></li>
+						  <li><a href="/blog/page/contact">Contact Form</a></li>
+				</ul>
+		  
+				  <p class="copyright">Copyright &copy; 2018 <a href="#" target="_blank">CodeVector</a>.
+					  All Rights Reserved.
+				  </p>
+		  
+		</div>
+	</div>
+</footer>
+</body>
+</html>

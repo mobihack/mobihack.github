@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+
+	<title>RockiTech Blog</title>
+
+	<link href="https://rockitech.net/feed/" type="application/atom+xml" rel="self"/>
+	<link type="text/html" href="https://rockitech.net" rel="alternate"/>
+
+	<generator uri="http://jekyllrb.com/">Jekyll</generator>
+
+
+	<updated>2018-08-05T05:39:52-04:00</updated>
+	<id>https://rockitech.net/</id>
+	<author>
+		<name>mobihack</name>
+		<email>mobihack.me@gmail.com</email>
+	</author>
+
+	
+
+</feed>
